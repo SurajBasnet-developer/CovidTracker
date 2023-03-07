@@ -5,7 +5,7 @@ const Covid = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("https://disease.sh/v3/covid-19/all");
+      const response = await fetch("your api key was there ");
       const responseData = await response.json();
       setData(responseData);
     };
